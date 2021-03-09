@@ -28,25 +28,14 @@ class Search {
 
   static findByKeyword(keyword) {
     try {
-      websiteData.forEach((singleData) => {
-        checkKeyword(singleData, keyword);
-      });
-      return dataArray;
+      const searchData = websiteData.filter(
+        (search) => search.keywords.indexOf(keyword) > -1
+      );
+      return searchData;
     } catch (err) {
       throw new Error(`No websites under this keyword: ${keyword}`);
     }
   }
-
-  checkKeyword(data, keyword) {
-    const keywordArray = data.keywords;
-    for (let i = 0; i < keywordArray.length; i++) {
-      if (keyword === keywordArray[i]) {
-        dataArray.append(data);
-      } else {
-        // do nothing
-      }
-    }
-  }
 }
 
-module.export = Search;
+module.exports = Search;

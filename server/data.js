@@ -15,15 +15,16 @@ const searches = [
   },
   {
     id: 2,
-    title: 'Football - BBC Sport',
-    url: 'https://www.bbc.co.uk/sport/football',
-    desc: 'All things football yay',
+    title: 'Football - Wikipedia',
+    url: 'https://en.wikipedia.org/wiki/Football',
+    desc:
+      'Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of ...',
     keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
   },
   {
     id: 3,
-    title: 'Football - BBC Sport',
-    url: 'https://www.bbc.co.uk/sport/football',
+    title: 'Football Games, Results, Scores, Transfers, News | Sky Sports',
+    url: 'https://www.skysports.com/football',
     desc: 'All things football yay',
     keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
   },
@@ -78,10 +79,11 @@ const searches = [
   },
   {
     id: 11,
-    title: 'Football - BBC Sport',
-    url: 'https://www.bbc.co.uk/sport/football',
-    desc: 'All things football yay',
-    keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
+    title: 'Cooking for...recipes - BBC Good Food',
+    url: 'https://www.bbcgoodfood.com/recipes/category/all-cooking-for',
+    desc:
+      'Whether you need a wholesome dinner for one or a quick meal for a crowd, we have the perfect recipes for you. Cater for every diet and palate with our favourite ...',
+    keywords: ['cooking', 'food', 'recipe', 'recipes'],
   },
   {
     id: 12,
@@ -147,3 +149,5 @@ const searches = [
     keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
   },
 ];
+
+module.exports = searches;

@@ -2,14 +2,13 @@ const express = require('express');
 const router = express.Router();
 
 const Search = require('../models/search');
-const { route } = require('../server');
 
-route.get('/', (req, res) => {
+router.get('/', (req, res) => {
   const searchData = Search.all;
   res.send(searchData);
 });
 
-route.get('/:keyword', (req, res) => {
+router.get('/:keyword', (req, res) => {
   try {
     const keyword = req.params.keyword;
     const matchedWebsite = Search.findByKeyword(keyword);
