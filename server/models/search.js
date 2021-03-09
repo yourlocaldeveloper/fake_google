@@ -20,7 +20,7 @@ class Search {
     try {
       const searchData = websiteData.filter((search) => search.id === id)[0];
       const search = new Search(searchData);
-      return searchData;
+      return search;
     } catch (err) {
       throw new Error('No websites exist under this ID');
     }
