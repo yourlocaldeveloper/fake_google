@@ -30,51 +30,57 @@ const searches = [
   },
   {
     id: 4,
-    title: 'Football - BBC Sport',
-    url: 'https://www.bbc.co.uk/sport/football',
-    desc: 'All things football yay',
+    title: 'Premier League Football News, Fixtures, Scores & Results',
+    url: 'https://www.premierleague.com/',
+    desc:
+      'Gives fixture information, top news stories, score updates, links to Premier League club websites, statistics and podcasts.',
     keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
   },
   {
     id: 5,
-    title: 'Football - BBC Sport',
-    url: 'https://www.bbc.co.uk/sport/football',
-    desc: 'All things football yay',
+    title: 'Bundesliga | official website',
+    url: 'https://www.bundesliga.com/',
+    desc:
+      'The official Bundesliga website. The latest news, info and stats for clubs in 2020-2021 can be found here',
     keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
   },
   {
     id: 6,
-    title: 'Football - BBC Sport',
-    url: 'https://www.bbc.co.uk/sport/football',
-    desc: 'All things football yay',
+    title: 'FIFA - FIFA.com',
+    url: 'https://www.fifa.com/',
+    desc:
+      'The official site of the international governing body of football with news, national associations, competitions, results, fixtures, development, organisation, world ...',
     keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
   },
   {
     id: 7,
-    title: 'Football - BBC Sport',
-    url: 'https://www.bbc.co.uk/sport/football',
-    desc: 'All things football yay',
+    title: 'SOCCER-SPAIN Spanish football website in English',
+    url: 'http://www.soccer-spain.com/',
+    desc:
+      'SOCCER-SPAIN Spanish soccer football website in English; La Liga fixtures, results, match reports, transfers, news, stats; Official Spanish club shirts and prints.',
     keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
   },
   {
     id: 8,
-    title: 'Football - BBC Sport',
-    url: 'https://www.bbc.co.uk/sport/football',
-    desc: 'All things football yay',
+    title: 'Football - news, transfers, fixtures, scores, pictures - talkSPORT',
+    url: 'https://talksport.com/football/',
+    desc:
+      'The home of Football on talkSPORT - Bringing you the latest Football news, exclusive interviews, Transfer Rumours and features.',
     keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
   },
   {
     id: 9,
-    title: 'Football - BBC Sport',
-    url: 'https://www.bbc.co.uk/sport/football',
-    desc: 'All things football yay',
+    title: 'The website for the English Football Association, Emirates FA ...',
+    url: 'https://www.thefa.com/',
+    desc:
+      'FIND FOOTBALL NEAR YOU. Location Please enter a location. Type. Type, Clubs, Just Play, Wildcats, 5-a-side Centre, Age UK - Walking Football. More info.',
     keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
   },
   {
     id: 10,
-    title: 'Football - BBC Sport',
-    url: 'https://www.bbc.co.uk/sport/football',
-    desc: 'All things football yay',
+    title: 'Football - Latest football news and fantasy football | Metro UK',
+    url: 'https://metro.co.uk/sport/football/',
+    desc: 'Football News. Last Updated: 9:13 GMT, 10 March 2021 ...',
     keywords: ['football', 'sports', 'foot', 'ball', 'scores', 'league'],
   },
   {
