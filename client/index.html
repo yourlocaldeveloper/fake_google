@@ -8,26 +8,46 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script defer src="assets/js/app.js"></script>
     <script defer src="assets/js/index.js"></script>
     <title>Fake Google</title>
   </head>
   <body>
-    <header>
-      <nav></nav>
+    <header class="d-none d-sm-block">
+      <div class="row p-4">
+        <div class="col-sm">
+          <a href="#" class="px-2">About</a>
+          <a href="#" class="px-2">Store</a>
+        </div>
+        <div class="col-sm text-right">
+          <a href="#" class="px-2">Fakemail</a>
+          <a href="#" class="px-2">Images</a>
+          <a href="#" class="px-2"><i class="fas fa-bars"></i></a>
+        </div>
+      </div>
     </header>
-    <main class="container mt-5">
+    <main class="container">
       <div>
         <img
           src="assets/images/google.png"
           alt="Google Logo"
-          class="img-fluid mb-5"
+          class="rounded mx-auto d-block mb-5"
+          height="150"
         />
         <form id="search-bar">
-          <input type="text" id="search" class="form-control" />
-          <div class="d-flex justify-content-around mt-2">
-            <input type="submit" value="Search" id="searchButton" />
+          <input type="text" name="search" id="search" class="form-control" />
+          <div class="d-flex justify-content-center mt-2">
+            <input
+              type="submit"
+              value="Google Search"
+              id="searchButton"
+              class="mr-2"
+            />
             <input
               type="submit"
               value="Feeling Lucky?"
@@ -35,10 +55,25 @@
             />
           </div>
         </form>
+        <div id="websites" class="mt-5"></div>
       </div>
     </main>
-    <footer>
-      <div></div>
+    <footer class="fixed-bottom">
+      <div class="row p-4">
+        <div class="col-lg">
+          <a href="#" class="px-2">Advertising</a>
+          <a href="#" class="px-2">Business</a>
+          <a href="#" class="px-2">How Search works</a>
+        </div>
+        <div class="col-lg text-lg-center">
+          <a href="#" class="px-2">Carbon neural since 2007</a>
+        </div>
+        <div class="col-lg text-lg-right">
+          <a href="#" class="px-2">Privacy</a>
+          <a href="#" class="px-2">Terms</a>
+          <a href="#" class="px-2">Settings</a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
