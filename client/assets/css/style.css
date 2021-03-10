@@ -1,0 +1,52 @@
+.title {
+  font-size: 1.5rem;
+}
+
+.desc {
+  color: grey;
+}
+
+.url {
+  margin: 0;
+}
+
+.result {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: rgb(231, 231, 231);
+  border-top: 1px solid lightgrey;
+}
+
+footer a {
+  color: grey;
+}
+
+footer a:hover {
+  color: grey;
+}
+
+header a {
+  color: black;
+}
+
+header a:hover {
+  color: black;
+}
+
+main {
+  margin-top: 150px;
+}
+
+#searchButton,
+#searchButtonRandom {
+  padding: 8px 16px 8px 16px;
+  border: 0 none;
+}
+
+#searchButton:hover,
+#searchButtonRandom:hover {
+  box-shadow: 0 0 5px grey;
+}
