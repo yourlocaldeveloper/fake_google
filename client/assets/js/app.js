@@ -112,3 +112,14 @@ function notFound() {
   dataList.append(errorMessage);
   dataList.append(gifImage);
 }
+
+module.exports = {
+  handleSubmit,
+  findWebsite,
+  getAllSearches,
+  appendSearches,
+  appendSearches,
+  luckyWebsite,
+  luckySearch,
+  notFound,
+};
