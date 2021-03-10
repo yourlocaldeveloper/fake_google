@@ -1,7 +1,7 @@
+// Fetches websites data file
 const websiteData = require('../data');
 
-let dataArray = [];
-
+// Creates Search class
 class Search {
   constructor(data) {
     this.id = data.id;

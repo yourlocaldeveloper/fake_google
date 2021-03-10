@@ -1,8 +1,10 @@
+// Initial declarations
 const myForm = document.querySelector('#search-bar');
 myForm.addEventListener('submit', handleSubmit);
 const dataList = document.querySelector('#websites');
 const footer = document.querySelector('footer');
 
+// Handle submit event
 function handleSubmit(e) {
   e.preventDefault();
   const handleType = e.submitter.id;
@@ -15,6 +17,7 @@ function handleSubmit(e) {
   }
 }
 
+// Find search results
 function findWebsite(e) {
   console.log('EVENT HAPPENS');
   e.preventDefault();
@@ -26,6 +29,7 @@ function findWebsite(e) {
     .catch(console.warn);
 }
 
+// Gets all websites stores in searches
 function getAllSearches() {
   fetch('http://localhost:3000/search')
     .then((response) => response.json())
@@ -33,6 +37,7 @@ function getAllSearches() {
     .catch(console.warn);
 }
 
+// Checks a result returned
 function appendSearches(data) {
   dataList.innerHTML = '';
   console.log('FETCH HAPPENS');
@@ -44,6 +49,7 @@ function appendSearches(data) {
   }
 }
 
+// Appends a result on the page
 function appendSearch(data) {
   footer.classList.remove('fixed-bottom');
   console.log('APPEND HAPPENS');
@@ -76,6 +82,7 @@ function appendSearch(data) {
   dataList.append(websiteDiv);
 }
 
+// Fetches the first result it finds with a given term
 function luckyWebsite(e) {
   console.log('EVENT HAPPENS');
   e.preventDefault();
@@ -86,6 +93,7 @@ function luckyWebsite(e) {
     .catch(console.warn);
 }
 
+// Handles the return and navigates user to the returned website
 function luckySearch(data) {
   dataList.innerHTML = '';
   console.log('FETCH HAPPENS');
@@ -98,6 +106,7 @@ function luckySearch(data) {
   }
 }
 
+// Function for when result returns nothing
 function notFound() {
   footer.className = 'fixed-bottom';
   const errorMessage = document.createElement('h1');

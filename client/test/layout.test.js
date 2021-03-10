@@ -16,8 +16,8 @@ describe('index.html', () => {
 
   describe('body', () => {
     test('it has a main', () => {
-      const header = document.querySelector('main');
-      expect(header).toBeTruthy();
+      const main = document.querySelector('main');
+      expect(main).toBeTruthy();
     });
 
     describe('main', () => {

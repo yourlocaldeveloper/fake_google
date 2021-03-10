@@ -1,3 +1,5 @@
+// Initialises routes for /search using express router
+
 const express = require('express');
 const router = express.Router();
 
